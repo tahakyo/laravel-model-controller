@@ -1,1 +1,36 @@
 //
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #1e6717;
+}
+h1 {
+  padding: 2rem;
+}
+.container {
+  width: 80%;
+  min-width: 1000px;
+  margin: auto;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    li {
+      width: calc(100% / 5 - 3rem);
+      margin-bottom: 2rem;
+      margin-right: 1rem;
+      line-height: 30px;
+      color: antiquewhite;
+      border: 1px dotted orange;
+    }
+  }
+}
+
+
+
+
